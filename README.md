@@ -8,6 +8,10 @@
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/iohookjs/Lobby)
 [![Issues](https://img.shields.io/github/issues-raw/Droplr/iohook)](https://github.com/Droplr/iohook/issues)
 
+## Customization
+
+I changed the code in install.js, so that it will download the exact pre-build for my M2 macbook 
+
 ## About
 
 Node.js global native keyboard and mouse listener.

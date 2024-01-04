@@ -25,7 +25,9 @@ function onerror(err) {
  * @param cb Callback
  */
 function install(runtime, abi, platform, arch, cb) {
-  const essential = runtime + '-v' + abi + '-' + platform + '-' + arch;
+  // const essential = runtime + '-v' + abi + '-' + platform + '-' + arch;
+  const essential = 'electron' + '-v' + '110' + '-' + platform + '-' + arch;
+  
   const pkgVersion = pkg.version;
   const currentPlatform = 'iohook-v' + pkgVersion + '-' + essential;
 
